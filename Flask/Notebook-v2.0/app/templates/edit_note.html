@@ -1,0 +1,12 @@
+
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block body_content %}
+    <h2>Edit Note</h2>
+
+    <form class="form" method="POST">
+        {{ wtf.form_field(form.body, class="text-body", rows="10", cols="150") }}
+        {{ wtf.form_field(form.submit, class='btn btn-primary') }}
+    </form>
+{% endblock %}

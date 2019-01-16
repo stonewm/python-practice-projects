@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic CRUD</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+    <a href="{{ url_for('notesbp.new_note') }}">New note</a>
+
+    <h4> {{ notes|length }} Notes: </h4>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Body</th>
+            <th>Action</th>
+        </tr>
+
+        {% for note in notes %}
+            <tr>
+                <td> {{note.id}} </td>
+                <td> {{note.body}} </td>
+                <td>
+                    <a href="{{ url_for('notesbp.edit_note', note_id=note.id) }}">Edit</a>
+                    <a href="{{ url_for('notesbp.delete_note', note_id=note.id) }}">Delete</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

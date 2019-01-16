@@ -1,0 +1,26 @@
+{% extends 'base.html' %} 
+ 
+{% block body_content %}
+    <div>
+        <a href="{{ url_for('notesbp.new_note') }}" class="btn btn-primary">New note</a>
+    </div>
+
+    <table class="table table-hover">
+        <tr>
+            <th>ID</th>
+            <th>Body</th>
+            <th>Action</th>
+        </tr>
+
+        {% for note in notes %}
+        <tr>
+            <td> {{note.id}} </td>
+            <td> {{note.body}} </td>
+            <td>
+                <a class="btn btn-primary btn-sm" href="{{ url_for('notesbp.edit_note', note_id=note.id) }}">Edit</a>
+                <a class="btn btn-primary btn-sm" href="{{ url_for('notesbp.delete_note', note_id=note.id) }}">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

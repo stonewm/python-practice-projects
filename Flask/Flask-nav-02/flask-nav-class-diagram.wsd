@@ -1,0 +1,34 @@
+
+@startuml
+
+
+title flask-nav 类图
+
+class NavigationItem {
+    render()
+}
+object <|-- NavigationItem
+
+class Link {
+    get_url()
+}
+NavigationItem <|-- Link
+
+class View {
+    get_url()
+}
+Link <|-- View
+
+class Separator
+NavigationItem <|-- Separator
+
+class Text
+NavigationItem <|-- Text
+
+class Subgroup
+NavigationItem <|-- Subgroup
+
+class Navbar
+Subgroup <|-- Navbar
+
+@enduml

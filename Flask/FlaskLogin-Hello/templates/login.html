@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Sample</title>
+</head>
+<body>
+    <h1>Login</h1>
+    {% with messages = get_flashed_messages() %}
+        <div>{{ messages[0] }}</div>
+    {% endwith %}
+    <form action="{{ url_for('login') }}" method="POST">
+        <input type="text" name="userid" id="userid" placeholder="用户ID"></input>
+        <input type="password" name="password" id="password" placeholder="密码"></input>
+        <input type="submit" name="submit"></input>
+    </form>
+</body>
+</html>
