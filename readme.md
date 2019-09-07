@@ -2,5 +2,5 @@
 
 
 
-Python 练习项目
+Python Practice Projects Collection
 
