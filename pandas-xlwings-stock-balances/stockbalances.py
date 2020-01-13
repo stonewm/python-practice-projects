@@ -13,7 +13,7 @@ def do_get_stock_balances(year, month):
     year = int(year)
     month = int(month)
 
-    engine = create_engine('mssql+pyodbc://sa:pwd!@mssql')
+    engine = create_engine('mssql+pyodbc://sa:pwd@mssql') # mssql is odbc DSN name
 
 
     df_details = pd.read_sql(
