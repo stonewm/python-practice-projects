@@ -2,7 +2,7 @@ import gzip
 import os
 import tarfile
 import zipfile
-from unrar import rarfile
+from unrar import rarfile # pip install unrar
 
 def decompress_rar(src_file, dest_dir):
     """
@@ -99,5 +99,5 @@ def decompress_folder(src_dir):
 
 
 if __name__ == '__main__':
-    src_dir = r'D:\2019年工作总结'
+    src_dir = r'D:\BaiduNetdiskDownload\尚硅谷SpringMVC视频'
     decompress_folder(src_dir)
