@@ -24,7 +24,7 @@ def mergePDF(filepath, outfile):
 
 
 if __name__ == '__main__':
-    file_dir = r'C:\BaiduNetdiskDownload\精通 Spring Boot 42 讲\pdfs'
+    file_dir = r'C:\BaiduNetdiskDownload\BC404_EN_COL15\Converted'
     out = u"out.pdf"
     mergePDF(file_dir, out)
     print("Finished")
