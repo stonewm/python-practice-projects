@@ -1,0 +1,18 @@
+# ignore files and dirs
+.vscode
+.settings
+*.pyc
+
+# folders
+./
+.idea/
+.private/
+.vscode/
+build/
+bin/
+debug/
+obj/
+__pycache__/
+packages/
+TestResults/
+target/
