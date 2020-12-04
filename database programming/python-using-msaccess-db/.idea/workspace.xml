@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00999654-b9c4-40e3-9104-96294e5a1b5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/db/Employees.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/Employees.accdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_raw_ado_recordset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +35,29 @@
       <recent name="D:\My Gitee Repos\python-notes\database-programming\python-using-msaccess-db\db" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_raw_recordset">
-    <configuration name="test_ado_wrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.database_schema">
+    <configuration name="database_schema" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-using-msaccess-db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ADOWrapper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ADOWrapper/database_schema.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_database_schema" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-using-msaccess-db" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,7 +69,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_ado_wrapper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_database_schema.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,34 +127,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_raw_ado_recordset.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="python-using-msaccess-db" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_raw_ado_recordset.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test_ado_wrapper" />
       <item itemvalue="Python.test_raw_recordset" />
-      <item itemvalue="Python tests.Unittests in test_raw_ado_recordset.py" />
       <item itemvalue="Python tests.Unittests for test_raw_ado_recordset.TestRawRecordSet.test1" />
       <item itemvalue="Python tests.Unittests for test_raw_ado_recordset.TestRawRecordSet" />
+      <item itemvalue="Python.test_database_schema" />
+      <item itemvalue="Python.database_schema" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.database_schema" />
+        <item itemvalue="Python.test_database_schema" />
         <item itemvalue="Python.test_raw_recordset" />
         <item itemvalue="Python tests.Unittests for test_raw_ado_recordset.TestRawRecordSet" />
         <item itemvalue="Python tests.Unittests for test_raw_ado_recordset.TestRawRecordSet.test1" />
-        <item itemvalue="Python tests.Unittests in test_raw_ado_recordset.py" />
-        <item itemvalue="Python.test_ado_wrapper" />
       </list>
     </recent_temporary>
   </component>
@@ -156,46 +162,46 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1607052920212" />
-    <state width="2027" height="131" key="GridCell.Tab.0.bottom" timestamp="1607054310465">
+    <state width="2027" height="102" key="GridCell.Tab.0.bottom" timestamp="1607068859256">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="131" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607054310465" />
-    <state width="2027" height="131" key="GridCell.Tab.0.center" timestamp="1607054310465">
+    <state width="2027" height="102" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
+    <state width="2027" height="102" key="GridCell.Tab.0.center" timestamp="1607068859256">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="131" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607054310465" />
-    <state width="2027" height="131" key="GridCell.Tab.0.left" timestamp="1607054310465">
+    <state width="2027" height="102" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
+    <state width="2027" height="102" key="GridCell.Tab.0.left" timestamp="1607068859256">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="131" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607054310465" />
-    <state width="2027" height="131" key="GridCell.Tab.0.right" timestamp="1607054310465">
+    <state width="2027" height="102" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
+    <state width="2027" height="102" key="GridCell.Tab.0.right" timestamp="1607068859256">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="131" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607054310465" />
-    <state width="2027" height="366" key="GridCell.Tab.1.bottom" timestamp="1607052890363">
+    <state width="2027" height="102" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
+    <state width="2027" height="102" key="GridCell.Tab.1.bottom" timestamp="1607068859257">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="366" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607052890363" />
-    <state width="2027" height="366" key="GridCell.Tab.1.center" timestamp="1607052890363">
+    <state width="2027" height="102" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859257" />
+    <state width="2027" height="102" key="GridCell.Tab.1.center" timestamp="1607068859256">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="366" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607052890363" />
-    <state width="2027" height="366" key="GridCell.Tab.1.left" timestamp="1607052890363">
+    <state width="2027" height="102" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
+    <state width="2027" height="102" key="GridCell.Tab.1.left" timestamp="1607068859256">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="366" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607052890363" />
-    <state width="2027" height="366" key="GridCell.Tab.1.right" timestamp="1607052890363">
+    <state width="2027" height="102" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
+    <state width="2027" height="102" key="GridCell.Tab.1.right" timestamp="1607068859256">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="366" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607052890363" />
+    <state width="2027" height="102" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
     <state x="526" y="198" key="SettingsEditor" timestamp="1606880877345">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="198" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1606880877345" />
-    <state x="705" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1607052638552">
+    <state x="705" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1607065888195">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="705" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1607052638552" />
+    <state x="705" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1607065888195" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1607054365655">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
