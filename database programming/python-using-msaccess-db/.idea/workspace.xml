@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00999654-b9c4-40e3-9104-96294e5a1b5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_sqlalchemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sqlalchemy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
       <recent name="D:\My Gitee Repos\python-notes\database-programming\python-using-msaccess-db\db" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.database_schema">
+  <component name="RunManager" selected="Python tests.Unittests in test_sqlalchemy.py">
     <configuration name="database_schema" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-using-msaccess-db" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +114,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_raw_ado_recordset.TestRawRecordSet.test1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_sqlalchemy.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-using-msaccess-db" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,24 +124,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_raw_ado_recordset.TestRawRecordSet.test1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_sqlalchemy.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.test_raw_recordset" />
-      <item itemvalue="Python tests.Unittests for test_raw_ado_recordset.TestRawRecordSet.test1" />
-      <item itemvalue="Python tests.Unittests for test_raw_ado_recordset.TestRawRecordSet" />
       <item itemvalue="Python.test_database_schema" />
       <item itemvalue="Python.database_schema" />
+      <item itemvalue="Python tests.Unittests for test_raw_ado_recordset.TestRawRecordSet" />
+      <item itemvalue="Python tests.Unittests in test_sqlalchemy.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_sqlalchemy.py" />
         <item itemvalue="Python.database_schema" />
         <item itemvalue="Python.test_database_schema" />
         <item itemvalue="Python.test_raw_recordset" />
         <item itemvalue="Python tests.Unittests for test_raw_ado_recordset.TestRawRecordSet" />
-        <item itemvalue="Python tests.Unittests for test_raw_ado_recordset.TestRawRecordSet.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -162,46 +163,46 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1607052920212" />
-    <state width="2027" height="102" key="GridCell.Tab.0.bottom" timestamp="1607068859256">
+    <state width="2027" height="196" key="GridCell.Tab.0.bottom" timestamp="1607939860146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="102" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
-    <state width="2027" height="102" key="GridCell.Tab.0.center" timestamp="1607068859256">
+    <state width="2027" height="196" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607939860146" />
+    <state width="2027" height="196" key="GridCell.Tab.0.center" timestamp="1607939860146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="102" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
-    <state width="2027" height="102" key="GridCell.Tab.0.left" timestamp="1607068859256">
+    <state width="2027" height="196" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607939860146" />
+    <state width="2027" height="196" key="GridCell.Tab.0.left" timestamp="1607939860146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="102" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
-    <state width="2027" height="102" key="GridCell.Tab.0.right" timestamp="1607068859256">
+    <state width="2027" height="196" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607939860146" />
+    <state width="2027" height="196" key="GridCell.Tab.0.right" timestamp="1607939860146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="102" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
-    <state width="2027" height="102" key="GridCell.Tab.1.bottom" timestamp="1607068859257">
+    <state width="2027" height="196" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607939860146" />
+    <state width="2027" height="196" key="GridCell.Tab.1.bottom" timestamp="1607939860146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="102" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859257" />
-    <state width="2027" height="102" key="GridCell.Tab.1.center" timestamp="1607068859256">
+    <state width="2027" height="196" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607939860146" />
+    <state width="2027" height="196" key="GridCell.Tab.1.center" timestamp="1607939860146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="102" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
-    <state width="2027" height="102" key="GridCell.Tab.1.left" timestamp="1607068859256">
+    <state width="2027" height="196" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607939860146" />
+    <state width="2027" height="196" key="GridCell.Tab.1.left" timestamp="1607939860146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="102" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
-    <state width="2027" height="102" key="GridCell.Tab.1.right" timestamp="1607068859256">
+    <state width="2027" height="196" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607939860146" />
+    <state width="2027" height="196" key="GridCell.Tab.1.right" timestamp="1607939860146">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="102" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607068859256" />
+    <state width="2027" height="196" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607939860146" />
     <state x="526" y="198" key="SettingsEditor" timestamp="1606880877345">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="198" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1606880877345" />
-    <state x="705" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1607065888195">
+    <state x="705" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1607938968990">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="705" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1607065888195" />
+    <state x="705" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1607938968990" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1607054365655">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
