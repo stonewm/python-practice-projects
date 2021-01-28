@@ -50,9 +50,9 @@ class BiliHistory(object):
             f"?max={max}&view_at={view_at}&business={business}"
         resp = get_response_json(url, self.request_headers)
         history_list = resp.get("data").get("list")
-        next_cusor = resp.get("data").get("cursor")
+        next_cursor = resp.get("data").get("cursor")
 
-        return history_list, next_cusor
+        return history_list, next_cursor
 
     def get_all_history(self):
         """获取所有的的浏览历史记录"""
